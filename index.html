@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>For You — Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="gold-orb orb-one"></div><div class="gold-orb orb-two"></div>
+  <nav class="nav">
+    <a class="brand" href="#home">FOR <span>YOU.</span></a>
+    <button class="music-toggle" id="musicToggle" aria-label="Putar musik">♫ <span id="musicLabel">Play music</span></button>
+  </nav>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="kicker">A DAY MADE FOR YOU <i></i></p>
+        <p class="overline">HAPPY BIRTHDAY</p>
+        <h1 id="heroName">My Favorite<br><em>Person.</em></h1>
+        <p class="hero-description" id="heroIntro">Hari ini dunia merayakan seseorang yang begitu berarti bagiku.</p>
+        <a class="gold-button" href="#letter">Ada sesuatu untukmu <span>↘</span></a>
+      </div>
+      <div class="hero-art reveal">
+        <div class="halo"></div>
+        <div class="hero-frame">
+          <img id="heroPhoto" src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=85" alt="Foto kenangan pilihan">
+          <div class="photo-caption"><span>MY PERSON</span><b>01 / ∞</b></div>
+        </div>
+        <div class="floating-star star-a">✳</div><div class="floating-star star-b">✧</div>
+        <div class="vertical-note">A LITTLE WEBSITE, A LOT OF LOVE</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="line"></span><span>01 — 05</span></div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-heading reveal"><p class="kicker">01 / A LETTER FOR YOU</p><h2>Some words<br><em>from my heart.</em></h2></div>
+      <div class="letter-layout">
+        <div class="letter-intro reveal"><p>Ada hal-hal yang terkadang lebih mudah disampaikan lewat tulisan. Jadi, hari ini aku menyiapkan sesuatu yang kecil untukmu.</p><span>Tap the envelope to open</span></div>
+        <button class="envelope-wrap reveal" id="envelope" aria-label="Buka amplop surat">
+          <div class="envelope">
+            <div class="letter-paper"><span class="paper-top">A LETTER FOR YOU ♡</span><p id="letterPreview">Untuk seseorang yang selalu punya tempat spesial di hatiku...</p><span class="paper-sign">with love,</span><b id="letterFrom">Me.</b></div>
+            <div class="envelope-back"></div><div class="envelope-flap"></div><div class="envelope-front"></div>
+            <div class="wax-seal">♥</div>
+          </div>
+          <span class="envelope-hint">OPEN YOUR LETTER</span>
+        </button>
+      </div>
+      <div class="full-letter" id="fullLetter" aria-hidden="true">
+        <button class="close-letter" id="closeLetter" aria-label="Tutup surat">×</button>
+        <p class="kicker">MY DEAREST,</p><h3 id="letterTitle">Untuk kamu.</h3>
+        <p id="letterBody"></p><p class="letter-signoff">Selalu dengan sayang,<br><strong id="letterSignature">Aku ♡</strong></p>
+      </div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading reveal"><p class="kicker">02 / LITTLE MOMENTS</p><h2>Our favorite<br><em>memories.</em></h2><p class="section-sub">Potongan kecil cerita kita yang ingin selalu kuingat.</p></div>
+      <div class="memory-grid" id="memoryGrid"></div>
+      <p class="tiny-note">Ganti foto contoh dengan foto kalian sendiri melalui file <b>script.js</b>.</p>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-heading reveal"><p class="kicker">03 / OUR STORY</p><h2>Every moment<br><em>means something.</em></h2></div>
+      <div class="timeline" id="timelineList"></div>
+    </section>
+
+    <section class="section wishes-section" id="wishes">
+      <div class="wish-card reveal">
+        <p class="kicker">04 / A WISH FOR YOUR NEW CHAPTER</p>
+        <div class="big-star">✳</div>
+        <h2>May this year<br>be <em>kind to you.</em></h2>
+        <p id="wishText">Semoga hal-hal baik datang tanpa perlu kamu minta. Semoga kamu selalu sehat, dikelilingi cinta, dan diberi keberanian untuk mengejar semua yang kamu impikan.</p>
+        <button class="gold-button" id="surpriseButton">One more surprise <span>✦</span></button>
+        <p id="surpriseResult" class="surprise-result" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>MADE WITH LOVE</span><b>♥</b><span id="footerName">JUST FOR YOU</span></footer>
+  <audio id="backgroundMusic" loop></audio>
+  <input type="file" id="musicUpload" accept="audio/*" hidden>
+  <script src="script.js"></script>
+</body>
+</html>
