@@ -13,11 +13,41 @@ Website ulang tahun romantis dengan tema hitam dan gold. Berjalan langsung di br
 ## Mengedit konten
 
 Buka `script.js`. Semua konten ada di objek `birthday` paling atas:
-- `name`: nama pacar.
-- `intro`: kalimat pembuka.
-- `sender`: nama pengirim surat.
-- `letterTitle`, `letterPreview`, `letter`: judul, cuplikan, dan isi surat.
-- `wishes`, `surprise`: doa dan pesan kejutan.
+- `name`: laylay.
+- `intro`: hai lay, selamat tanggal 2 desember yang ke 19 tahun ya.
+- `sender`: trifena keren abisss.
+- `letterTitle`, `letterPreview`, `letter`:Happy Birthday, My Favorite Person!
+Hari ini adalah hari spesial seseorang yang pernah menjadi bagian paling indah dalam cerita hidupku.
+Selamat bertambah usia, manis. Semoga hari ini dipenuhi senyuman, kebahagiaan, dan hal-hal baik yang selalu kamu harapkan.
+Ada sedikit sesuatu dari aku untuk kamu. Jadi, jangan buru-buru menutup halaman ini, yaa. Hehehe. 
+
+Hari ini adalah hari spesial seseorang yang pernah menjadi bagian paling indah dalam cerita hidupku.
+Selamat bertambah usia, manis. Semoga hari ini dipenuhi senyuman, kebahagiaan, dan hal-hal baik yang selalu kamu harapkan.
+Ada sedikit sesuatu dari aku untuk kamu. Jadi, jangan buru-buru menutup halaman ini, yaa. Hehehe..
+
+- `wishes`, `surprise`: Ada banyak hal kecil tentang kamu yang ternyata masih aku ingat.
+Aku kangen cerita-cerita kecil kamu. Bahkan hal sesederhana kegiatan yang sedang kamu lakukan, atau cerita random yang mungkin menurut orang lain tidak penting.
+Aku kangen humor kamu, kecantikan kamu, kebaikan kamu, dan segala hal yang membuat kamu menjadi diri kamu sendiri.
+Oh iya!
+Jangan lupa makan semangka hari ini yaa! Kamu lucu kalau sudah makan buah kesukaan kamu itu, WKWKWK.
+Terus, matcha-nya jangan lupa juga. Kamu kan maniac matcha, WKWKWK.
+Pokoknya, jangan lupa bahagia dan melakukan hal-hal yang kamu suka.
+
+The Lapeto Incident 🏍️
+
+Masih ingat kejadian waktu kita pulang setelah mandi di Lapeto?
+Maafin aku yang pernah bikin kamu jatuh dari motor yaa, WKWKWK.
+Reaksiku mungkin emang biasa aja waktu itu, tapi jujur aku takut kamu kenapa-kenapa.
+#PanikDikit
+Aku mungkin ga kelihatan panik, tetapi dalam hati sudah macam-macam pikirannya. Yang penting waktu itu kamu baik-baik saja.
+Kalau nanti ada kesempatan membuat kenangan baru, semoga kali ini kita tidak jatuh dari motor lagi. WKWKWK.
+
+Our Usual Place 🍽️
+
+Oh iya, satu lagi!
+Aku tunggu buat ku traktir di tempat makan kita biasanya yakk, eheheh.
+Kalau kamu berkenan, tentunya. Anggap saja kesempatan untuk menikmati makanan enak dan sedikit nostalgia.
+
 - `memories`: daftar foto kenangan, judul, tanggal/keterangan.
 - `timeline`: perjalanan hubungan kalian.
 
