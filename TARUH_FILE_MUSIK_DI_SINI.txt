@@ -1,0 +1,1 @@
+Taruh file MP3 di folder assets ini lalu isi birthday.musicFile di script.js.
